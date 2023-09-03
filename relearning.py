@@ -9,8 +9,6 @@ import matplotlib.pyplot as plt
 
 from utils import *
 
-epochs = 3
-
 if __name__ == "__main__":
 
     # Создаем модель CNN
@@ -41,7 +39,7 @@ if __name__ == "__main__":
     X_test_3000_2, y_test_3000_2, _, _ = generate_set(3000)
 
     # Обучаем модель на 12000 изображениях
-    history = model.fit(X_train_12000, y_train_12000, batch_size=batch_size, epochs=5)
+    history = model.fit(X_train_12000, y_train_12000, batch_size=batch_size, epochs=3)
 
     # проверяем на изображениях без гексагона
     print("\n3000 без гексагона")
@@ -64,7 +62,7 @@ if __name__ == "__main__":
         model_copy = keras.models.load_model('start_learning.keras')
 
         # Дополнительно обучаем модель на 12000+i изображениях
-        history = model_copy.fit(X_train_12000, y_train_12000, batch_size=batch_size, epochs=epochs, verbose=2)
+        history = model_copy.fit(X_train_12000, y_train_12000, batch_size=batch_size, epochs=1, verbose=2)
 
         # проверяем на изображениях без гексагона
         print("3000 без гексагона")

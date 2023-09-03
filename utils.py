@@ -134,8 +134,8 @@ def test_model(model, X_test, y_test):
     precision = np.sum(precisions) / np.sum(precisions + (1 - precisions))
     recall = np.sum(recalls) / np.sum(recalls + (1 - recalls))
 
-    print(f"Максимальное IoU:\t{0.02656551602859353}")
-    print(f"Минимальное IoU:\t{0.02656551602859353}")
-    print(f"Среднее IoU:\t\t{0.02656551602859353}")
-    print(f"Precision:\t\t\t{0.02656551602859353}")
-    print(f"Recall:\t\t\t\t{0.02656551602859353}")
+    print(f"Максимальное IoU:\t{max_iou}")
+    print(f"Минимальное IoU:\t{min_iou}")
+    print(f"Среднее IoU:\t\t{average_iou}")
+    print(f"Precision:\t\t\t{precision}")
+    print(f"Recall:\t\t\t\t{recall}")

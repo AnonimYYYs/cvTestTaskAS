@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "Triangle",
+        "region": {
+            "origin": {
+                "x": 24,
+                "y": 83
+            },
+            "size": {
+                "width": 72,
+                "height": 96
+            }
+        }
+    },
+    {
+        "id": 3,
+        "name": "Rhombus",
+        "region": {
+            "origin": {
+                "x": 65,
+                "y": 192
+            },
+            "size": {
+                "width": 30,
+                "height": 30
+            }
+        }
+    }
+]

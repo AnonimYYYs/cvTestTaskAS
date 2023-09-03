@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Rhombus",
+        "region": {
+            "origin": {
+                "x": 99,
+                "y": 174
+            },
+            "size": {
+                "width": 49,
+                "height": 64
+            }
+        }
+    },
+    {
+        "id": 6,
+        "name": "Hexagon",
+        "region": {
+            "origin": {
+                "x": 138,
+                "y": 123
+            },
+            "size": {
+                "width": 47,
+                "height": 47
+            }
+        }
+    },
+    {
+        "id": 8,
+        "name": "Triangle",
+        "region": {
+            "origin": {
+                "x": 174,
+                "y": 0
+            },
+            "size": {
+                "width": 60,
+                "height": 117
+            }
+        }
+    }
+]

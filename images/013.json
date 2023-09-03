@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Rhombus",
+        "region": {
+            "origin": {
+                "x": 60,
+                "y": 203
+            },
+            "size": {
+                "width": 82,
+                "height": 115
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Circle",
+        "region": {
+            "origin": {
+                "x": 177,
+                "y": 82
+            },
+            "size": {
+                "width": 32,
+                "height": 32
+            }
+        }
+    },
+    {
+        "id": 3,
+        "name": "Rhombus",
+        "region": {
+            "origin": {
+                "x": 158,
+                "y": 158
+            },
+            "size": {
+                "width": 65,
+                "height": 29
+            }
+        }
+    }
+]
